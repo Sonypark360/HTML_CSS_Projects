@@ -102,3 +102,21 @@ a {
 a:hover {
   text-decoration: underline; /* Underline links on hover */
 }
+
+/* Single column for all lists on smaller screens */
+@media (max-width: 767px) {
+  #Skills ul,
+  #Work-History ul,
+  #Education ul,
+  #Certifications ul {
+    display: block;
+  }
+
+  #Skills li,
+  #Work-History li,
+  #Education li,
+  #Certifications li {
+    flex: 1 1 100%;
+    margin: 5px 0;
+  }
+}
