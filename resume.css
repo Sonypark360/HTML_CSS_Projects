@@ -14,6 +14,12 @@ header {
   margin-bottom: 10px; /* Add margin to separate the photo from the name */
 }
 
+/* Style for the LinkedIn icon */
+.linkedin-icon {
+  color: #0077B5; /* LinkedIn blue color */
+  font-size: 24px; /* Icon size */
+}
+
 
 
 /* Apply box line around the page */
